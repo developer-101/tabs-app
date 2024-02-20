@@ -1,0 +1,39 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    border: 1px gray solid;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+}
+
+.header div {
+    background-color: lightcyan;
+    border-radius: 10px 10px 0 0;
+    margin-left:2px;
+    padding:4px 10px;
+    border: 1px gray solid;
+    cursor: pointer;
+}
+
+.header div.active {
+    background-color: green;
+}
+
+.label { 
+    font-size: 20px;
+}
+
+.active .label {
+    color: white;
+}
+
+.content {
+    padding: 10px;
+    border: 1px red solid;
+    min-height: 200px;
+}
